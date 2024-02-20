@@ -1,0 +1,107 @@
+body{
+    background-color: #020d18 !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #fff;
+}
+.bi-star-fill{
+    color: rgb(0, 225, 255) !important;
+}
+.userimg{
+    top: 0 !important;
+    left: -3px !important;
+}
+.u-ul{
+    padding: 0;
+    padding-left: 0.5rem !important;
+    text-decoration: none !important;
+}
+.boorder{
+    border-bottom: 3px solid #ffffffc9;
+}
+    
+.onscreen-m{
+    max-width: 230px;
+position: relative;
+    display: flex;
+    flex-direction: column;
+ justify-content: center;
+
+    box-shadow: 0px 6px 16px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 6px 16px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 16px -6px rgba(0,0,0,0.75);
+padding: 0 10px;
+border-radius: 20px;
+color:#e9ecef;
+padding: 20px 0;
+font-family: Netflix;
+
+}
+.bla{
+    border: 1px solid #ffffffa6;
+    padding: 1px;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #ffffffa6;
+}
+.onscreen-m > .hover-details{
+    border-radius: 10px;
+    width: 315px;
+    background: linear-gradient(180deg, rgb(50 54 72 / 99%) 0%, rgba(23, 24, 29, 0.986)  100%);
+    padding: 20px;
+    color: #949ea9;
+    position: absolute;
+    /* right: -305px; */
+    z-index: 9;
+    top: 69px;
+    left: 228px;
+    box-shadow: -1px 1px 33px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 1px 33px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 33px -6px rgba(0,0,0,0.75);
+    display: none;
+}
+.hover-details >p{
+    color: #949ea9 !important;
+}
+.hover-details > .d-flex{
+    gap: 1rem;
+}
+
+.onscreen-m > a > img{
+    position: relative;
+    width: 223px;
+    object-fit: cover;
+    height: 336px;
+    border-radius: 20px;
+}
+.onhover-elements{
+   
+    opacity: .2;
+}
+.movies-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 2rem;
+}
+.container-padding{
+    padding: 0 6rem;
+}
+.buy-ticket-btn{
+    background-color: #40374b !important;
+      border-radius:10px;
+      transition: 300ms ease-in-out;
+      color: #fff !important;
+}
+
+.watch-trailer-btn{
+    background-color: #495057 !important;
+    color: white !important;
+    border-radius: 10px;
+}
